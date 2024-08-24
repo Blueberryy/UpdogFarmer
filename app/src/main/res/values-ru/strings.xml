@@ -17,7 +17,7 @@
     <string name="settings">Настройки</string>
     <string name="logout">Выйти</string>
     <string name="redeem">Активировать продукт</string>
-    <string name="redeem_msg">Введите ключ продукта или ID бесплатной игры</string>
+    <string name="redeem_msg">Введите ключ продукта или ИД бесплатной игры</string>
     <string name="ok">OK</string>
     <string name="cat_idle">Фарм карточек</string>
     <string name="cat_general">Общие</string>
@@ -39,7 +39,7 @@
     <string name="sum_language">Сменить язык приложения (Требуется перезапуск).</string>
     <string name="pref_gdpr_consent">Отозвать соглашение GDPR</string>
     <string name="sum_gdpr_consent">В соответствии с Общим регламентом ЕС о защите данных (GDPR), для отображения рекламы требуется согласие пользователя. Нажмите здесь, чтобы отозвать своё согласие.</string>
-    <string name="pref_use_custom_loginid">Использовать пользовательский Login ID</string>
+    <string name="pref_use_custom_loginid">Использовать пользовательский ИД входа</string>
     <string name="sum_use_custom_loginid">Включение этой опции позволит вам запускать другие SteamKit приложения (например, Ice Client) одновременно с Idle Daddy. Если не уверены, оставьте по умолчанию. (Требуется перезапуск)</string>
     <string name="gdpr_consent_not_needed">Нет необходимости. Idle Daddy Premium не отображает рекламу.</string>
     <string name="blacklist_hint">Введите appid игры и нажмите +</string>
@@ -64,12 +64,12 @@
     <string name="invalid_key">Недействительный ключ</string>
     <string name="activation_failed">Не удалось активировать</string>
     <plurals name="games_left">
-        <item quantity="one">%d игра осталась</item>
-        <item quantity="other">%d игр(-ы) осталось</item>
+        <item quantity="one">Игр осталось: %d</item>
+        <item quantity="other">Игр осталось: %d</item>
     </plurals>
     <plurals name="card_drops_remaining">
-        <item quantity="one">%d карточка выпадет</item>
-        <item quantity="other">%d карточек выпадет</item>
+        <item quantity="one">Карточек выпадет: %d</item>
+        <item quantity="other">Карточек выпадет: %d</item>
     </plurals>
     <plurals name="hours_on_record">
         <item quantity="one">%.1f ч. всего</item>
@@ -83,8 +83,8 @@
     <string name="idling_multiple">Фармится несколько игр</string>
     <string name="logged_out">Вы вышли</string>
     <string name="about">О приложении</string>
-    <string name="stop">Стоп</string>
-    <string name="skip">Пропустить</string>
+    <string name="stop">Остановить</string>
+    <string name="skip">Пропуск</string>
     <string name="pause">Пауза</string>
     <string name="resume">Продолжить</string>
     <string name="activated">Активировано: %s</string>
@@ -144,7 +144,7 @@
     <string name="bosnian_croatian">Боснийский/хорватский</string>
     <string name="serbian">Сербский</string>
     <string name="language_changed">Перезапустите приложение для смены языка.</string>
-    <string name="service_started">Идёт техобслуживание Steam</string>
+    <string name="service_started">Steam запущен</string>
     <string name="idle_custom_app">Пуск скрытой/сторонней игры Steam</string>
     <string name="hidden_appid">Скрытый appid</string>
     <string name="non_steam_game">Сторонняя игра Steam</string>
@@ -156,7 +156,7 @@
     <string name="complete_projects">Выполнить задания проектов</string>
     <string name="daily_tasks_completed">Ежедневные задания выполнены. Возвращайтесь завтра.</string>
     <string name="project_tasks_completed">Задания проектов выполнены. Эти задания выполняются один раз.</string>
-    <string name="shared_secret_desc">Скопируйте код «shared_secret» из мобильного аутентификатора. Это позволит Idle Daddy автоматически входить в систему по истечении срока действия ключа входа.</string>
+    <string name="shared_secret_desc">Скопируйте код «shared_secret» из мобильного авторизатора. Это позволит Idle Daddy автоматически входить в систему по истечении срока действия ключа входа.</string>
     <string name="import_shared_secret">Импорт shared_secret</string>
     <string name="enter_manually">Ввести вручную</string>
     <string name="enter_shared_secret">Введите свой shared_secret:</string>
